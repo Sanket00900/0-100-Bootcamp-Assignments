@@ -5,7 +5,7 @@ function pushExample(arr, element) {
   arr.push(element);
   console.log("After push:", arr);
 }
-pushExample([ 1, 2, 3 ], 4);
+pushExample([1, 2, 3], 4);
 
 // pop()  --> removes the last element from the array
 function popExample(arr) {
@@ -14,7 +14,7 @@ function popExample(arr) {
   arr.pop();
   console.log("After pop:", arr);
 }
-popExample([ 1, 2, 3 ]);
+popExample([1, 2, 3]);
 
 // shift() --> removes the first element from the array
 function shiftExample(arr) {
@@ -23,7 +23,7 @@ function shiftExample(arr) {
   arr.shift();
   console.log("After shift:", arr);
 }
-shiftExample([ 1, 2, 3 ]);
+shiftExample([1, 2, 3]);
 
 // unshift() --> add an element to the beginning of an array
 function unshiftExample(arr, element) {
@@ -32,7 +32,7 @@ function unshiftExample(arr, element) {
   arr.unshift(element);
   console.log("After unshift:", arr);
 }
-unshiftExample([ 1, 2, 3 ], 0);
+unshiftExample([1, 2, 3], 0);
 
 // concat() --> joins two or more arrays
 function concatExample(arr1, arr2) {
@@ -41,7 +41,7 @@ function concatExample(arr1, arr2) {
   let arr3 = arr1.concat(arr2);
   console.log("After concat:", arr3);
 }
-concatExample([ 1, 2, 3 ], [ 4, 5, 6 ]);
+concatExample([1, 2, 3], [4, 5, 6]);
 
 /*-------------------------------------------------*/
 
@@ -57,24 +57,28 @@ function forEachExample(arr) {
   // arr.forEach(fn)
   arr.forEach(getIndex);
 }
-forEachExample([ 1, 2, 3 ]);
+forEachExample([1, 2, 3]);
 
 // map() --> creates a new array with the results of calling a provided function
 // on every element in the calling array
 
-function makeItThrice(item) { return item * 3; }
+function makeItThrice(item) {
+  return item * 3;
+}
 function mapExample(arr) {
   console.log("Original Array:", arr);
 
   let newArr = arr.map(makeItThrice);
   console.log("After map:", newArr);
 }
-mapExample([ 1, 2, 3 ]);
+mapExample([1, 2, 3]);
 
 // filter() --> creates a new array with all elements that pass the test
 // implemented by the provided function
 
-function isGreaterOrNot(item) { return item > 3; }
+function isGreaterOrNot(item) {
+  return item > 3;
+}
 
 function filterExample(arr) {
   console.log("Original Array:", arr);
@@ -82,12 +86,14 @@ function filterExample(arr) {
   let newArr = arr.filter(isGreaterOrNot);
   console.log("After filter:", newArr);
 }
-filterExample([ 1, 2, 3, 4, 5 ]);
+filterExample([1, 2, 3, 4, 5]);
 
 // find()  --> returns the value of the first element in the array that
 // satisfies the provided testing function
 
-function isGreaterOrNot(item) { return item > 3; }
+function isGreaterOrNot(item) {
+  return item > 3;
+}
 
 function findExample(arr) {
   console.log("Original Array:", arr);
@@ -95,13 +101,15 @@ function findExample(arr) {
   let found = arr.find(isGreaterOrNot);
   console.log("After find:", found);
 }
-findExample([ 1, 2, 3, 4, 5 ]);
+findExample([1, 2, 3, 4, 5]);
 
 // sort() --> sorts the elements of an array in place and returns the sorted
 // array
 
 // imp function for sorting
-function sortHelper(a, b) { return a - b; }
+function sortHelper(a, b) {
+  return a - b;
+}
 
 function sortExample(arr) {
   console.log("Original Array:", arr);
@@ -109,4 +117,4 @@ function sortExample(arr) {
   arr.sort(sortHelper);
   console.log("After sort:", arr);
 }
-sortExample([ 6, 7, 8, 9, 5, 2, 3, 4, 1 ]);
+sortExample([6, 7, 8, 9, 5, 2, 3, 4, 1]);
