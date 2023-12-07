@@ -8,7 +8,9 @@ class Animal {
   }
 
   // static method  can be called without instantiating the class
-  static func() { console.log("ANIMAL !"); }
+  static func() {
+    console.log("ANIMAL !");
+  }
 
   describe() {
     console.log(`${this.sound}, i am ${this.name} has ${this.legCount} legs`);
