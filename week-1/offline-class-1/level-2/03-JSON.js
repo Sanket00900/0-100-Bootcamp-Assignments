@@ -12,18 +12,16 @@ function jsonMethods(jsonString) {
 
 // Example Usage for JSON Methods
 const sampleJSONString =
-  '{"key": "value", "number": 42, "nested": {"nestedKey": "nestedValue"}}';
+    '{"key": "value", "number": 42, "nested": {"nestedKey": "nestedValue"}}';
 
 const sampletJavaScriptObject = {
-  key: "value",
-  number: 42,
-  nested: {
-    nestedKey: "nestedValue",
+  key : "value",
+  number : 42,
+  nested : {
+    nestedKey : "nestedValue",
   },
 };
 
 jsonMethods(sampleJSONString);
-console.log(
-  "JavaScipt Object to JSON String : ",
-  JSON.stringify(sampletJavaScriptObject)
-);
+console.log("JavaScipt Object to JSON String : ",
+            JSON.stringify(sampletJavaScriptObject));
