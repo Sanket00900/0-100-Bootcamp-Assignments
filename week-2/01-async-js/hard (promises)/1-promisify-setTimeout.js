@@ -4,8 +4,11 @@
 */
 
 function wait(n) {
-  let p = new Promise(function(
-      resolve) { setTimeout(() => { resolve(); }, n * 1000); });
+  let p = new Promise(function (resolve) {
+    setTimeout(() => {
+      resolve();
+    }, n * 1000);
+  });
   return p;
 }
 

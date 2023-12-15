@@ -8,19 +8,25 @@
 
 function wait1(t) {
   return new Promise((resolve) => {
-    setTimeout(() => { resolve("First Promise resolved"); }, t * 1000);
+    setTimeout(() => {
+      resolve("First Promise resolved");
+    }, t * 1000);
   });
 }
 
 function wait2(t) {
   return new Promise((resolve) => {
-    setTimeout(() => { resolve("Second Promise resolved"); }, t * 1000);
+    setTimeout(() => {
+      resolve("Second Promise resolved");
+    }, t * 1000);
   });
 }
 
 function wait3(t) {
   return new Promise((resolve) => {
-    setTimeout(() => { resolve("Third Promise resolved"); }, t * 1000);
+    setTimeout(() => {
+      resolve("Third Promise resolved");
+    }, t * 1000);
   });
 }
 
@@ -31,7 +37,7 @@ async function calculateTime(t1, t2, t3) {
   const p2 = await wait2(t2);
   const p3 = await wait3(t3);
 
-  await Promise.all([ p1, p2, p3 ]); //! imp
+  await Promise.all([p1, p2, p3]); //! imp
 
   const end = Date.now();
   console.log("End time : ", start);

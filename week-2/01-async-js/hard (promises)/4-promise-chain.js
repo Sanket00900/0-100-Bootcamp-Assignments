@@ -20,13 +20,17 @@ function wait1(t) {
 
 function wait2(t) {
   return new Promise((resolve) => {
-    setTimeout(() => { resolve("Second Promise resolved"); }, t * 1000);
+    setTimeout(() => {
+      resolve("Second Promise resolved");
+    }, t * 1000);
   });
 }
 
 function wait3(t) {
   return new Promise((resolve) => {
-    setTimeout(() => { resolve("Third Promise resolved"); }, t * 1000);
+    setTimeout(() => {
+      resolve("Third Promise resolved");
+    }, t * 1000);
   });
 }
 

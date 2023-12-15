@@ -1,14 +1,17 @@
 const fs = require("fs");
 
 function writeFile() {
-  fs.writeFile("a.txt", "Helllllllllllllllllloooooooooooooo into a.txt",
-               (err) => {
-                 if (err) {
-                   console.log(err);
-                 } else {
-                   console.log("File Written Succesfullly !!");
-                 }
-               });
+  fs.writeFile(
+    "a.txt",
+    "Helllllllllllllllllloooooooooooooo into a.txt",
+    (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log("File Written Succesfullly !!");
+      }
+    },
+  );
 }
 
 function sum() {
