@@ -1,5 +1,5 @@
-const jwt = require('jsonwebtoken');
-const jwtPassword = 'secret';
+const jwt = require("jsonwebtoken");
+const jwtPassword = "secret";
 
 /**
  * Generates a JWT for a given username and password.

@@ -1,7 +1,7 @@
 const request = require("supertest");
 const assert = require("assert");
 const express = require("express");
-const {error} = require("console");
+const { error } = require("console");
 const app = express();
 
 // TODO
@@ -17,7 +17,9 @@ const app = express();
 // clears every one second
 
 let numberOfRequestsForUser = {};
-setInterval(() => { numberOfRequestsForUser = {}; }, 1000);
+setInterval(() => {
+  numberOfRequestsForUser = {};
+}, 1000);
 
 app.use((req, res, next) => {
   const userId = req.headers.userid;
@@ -25,19 +27,23 @@ app.use((req, res, next) => {
   numberOfRequestsForUser[userId] = numberOfRequestsForUser[userId] || 0;
 
   if (numberOfRequestsForUser >= 5) {
-    return res.status(404).json({msg : "Rate limit exceeded"});
+    return res.status(404).json({ msg: "Rate limit exceeded" });
   }
 
   numberOfRequestsForUser[userId]++;
   next();
 });
 
-app.get("/user", function(req, res) { res.status(200).json({name : "john"}); });
+app.get("/user", function (req, res) {
+  res.status(200).json({ name: "john" });
+});
 
-app.post(
-    "/user",
-    function(req, res) { res.status(200).json({msg : "created dummy user"}); });
+app.post("/user", function (req, res) {
+  res.status(200).json({ msg: "created dummy user" });
+});
 
-app.listen(3000, () => { console.log("Server running on 3000"); });
+app.listen(3000, () => {
+  console.log("Server running on 3000");
+});
 
 module.exports = app;
