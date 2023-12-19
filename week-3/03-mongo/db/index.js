@@ -21,7 +21,7 @@ const User = mongoose.model('User', UserSchema);
 const Course = mongoose.model('Course', CourseSchema);
 
 module.exports = {
-    Admin,
-    User,
-    Course
+  Admin,
+  User,
+  Course
 }
