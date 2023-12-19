@@ -16,15 +16,20 @@ app.use((req, res, next) => {
 //  maintain a count of the number of requests made to the server in the global
 //  requestCount variable
 
-app.get("/user", function(req, res) { res.status(200).json({name : "john"}); });
+app.get("/user", function (req, res) {
+  res.status(200).json({ name: "john" });
+});
 
-app.post(
-    "/user",
-    function(req, res) { res.status(200).json({msg : "created dummy user"}); });
+app.post("/user", function (req, res) {
+  res.status(200).json({ msg: "created dummy user" });
+});
 
-app.get("/requestCount",
-        function(req, res) { res.status(200).json({requestCount}); });
+app.get("/requestCount", function (req, res) {
+  res.status(200).json({ requestCount });
+});
 
-app.listen(3000, () => { console.log("App running on port 3000 !"); });
+app.listen(3000, () => {
+  console.log("App running on port 3000 !");
+});
 
 module.exports = app;
