@@ -19,16 +19,16 @@ const jwtPassword = process.env.JWTSECRET;
  */
 function signJwt(username, password) {
   const zodSchema = zod.object({
-    email : zod.string().email(),
-    password : zod.string().min(6),
+    email: zod.string().email(),
+    password: zod.string().min(6),
   });
 
-  const response = zodSchema.safeParse({email : username, password});
+  const response = zodSchema.safeParse({ email: username, password });
 
   if (!response.success) {
     return null;
   } else {
-    const payload = {username, password};
+    const payload = { username, password };
     const token = jwt.sign(payload, jwtPassword);
     return token;
   }
@@ -61,10 +61,8 @@ function verifyJwt(token) {
  */
 function decodeJwt(token) {
   const decoded = jwt.decode(token);
-  if (decoded)
-    return true;
-  else
-    return false;
+  if (decoded) return true;
+  else return false;
 }
 
 module.exports = {
