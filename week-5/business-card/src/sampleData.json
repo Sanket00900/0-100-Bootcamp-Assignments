@@ -11,11 +11,7 @@
       "instagram": "https://www.instagram.com/johndoe",
       "facebook": "https://www.facebook.com/johndoe"
     },
-    "interests": [
-      "Web Development",
-      "Programming",
-      "Fitness"
-    ]
+    "interests": ["Web Development", "Programming", "Fitness"]
   },
   {
     "id": 2,
@@ -29,11 +25,7 @@
       "instagram": "https://www.instagram.com/janesmith",
       "facebook": "https://www.facebook.com/janesmith"
     },
-    "interests": [
-      "UX Design",
-      "Graphic Design",
-      "Reading"
-    ]
+    "interests": ["UX Design", "Graphic Design", "Reading"]
   },
   {
     "id": 3,
@@ -47,11 +39,7 @@
       "instagram": "https://www.instagram.com/alexjohnson",
       "facebook": "https://www.facebook.com/alexjohnson"
     },
-    "interests": [
-      "Data Science",
-      "Machine Learning",
-      "Hiking"
-    ]
+    "interests": ["Data Science", "Machine Learning", "Hiking"]
   },
   {
     "id": 4,
@@ -65,11 +53,7 @@
       "instagram": "https://www.instagram.com/emilydavis",
       "facebook": "https://www.facebook.com/emilydavis"
     },
-    "interests": [
-      "Digital Marketing",
-      "Content Creation",
-      "Photography"
-    ]
+    "interests": ["Digital Marketing", "Content Creation", "Photography"]
   },
   {
     "id": 5,
@@ -83,11 +67,7 @@
       "instagram": "https://www.instagram.com/chrismiller",
       "facebook": "https://www.facebook.com/chrismiller"
     },
-    "interests": [
-      "Game Development",
-      "Virtual Reality",
-      "Gaming"
-    ]
+    "interests": ["Game Development", "Virtual Reality", "Gaming"]
   },
   {
     "id": 6,
@@ -101,11 +81,7 @@
       "instagram": "https://www.instagram.com/sarawhite",
       "facebook": "https://www.facebook.com/sarawhite"
     },
-    "interests": [
-      "Content Creation",
-      "Travel",
-      "Cooking"
-    ]
+    "interests": ["Content Creation", "Travel", "Cooking"]
   },
   {
     "id": 7,
@@ -119,11 +95,7 @@
       "instagram": "https://www.instagram.com/miketurner",
       "facebook": "https://www.facebook.com/miketurner"
     },
-    "interests": [
-      "Fitness",
-      "Running",
-      "Healthy Living"
-    ]
+    "interests": ["Fitness", "Running", "Healthy Living"]
   },
   {
     "id": 8,
@@ -137,10 +109,6 @@
       "instagram": "https://www.instagram.com/hannahbrown",
       "facebook": "https://www.facebook.com/hannahbrown"
     },
-    "interests": [
-      "Graphic Design",
-      "Illustration",
-      "Art"
-    ]
+    "interests": ["Graphic Design", "Illustration", "Art"]
   }
 ]
