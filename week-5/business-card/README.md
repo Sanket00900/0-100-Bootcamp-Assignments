@@ -1,4 +1,4 @@
-# this is the basic business-card-gallyery app, which is the solution of week5 assignments !
+# Basic business-card-gallyery app :  (solution of week5 assignments !)
 
 ### the app seeded with the sample data [sampleData.json](./src/sampleData.json)
 
