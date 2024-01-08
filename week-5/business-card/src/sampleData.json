@@ -1,146 +1,146 @@
 [
-    {
-      "id": 1,
-      "personalInfo": {
-        "name": "John Doe",
-        "description": "Full-stack Developer"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "instagram": "https://www.instagram.com/johndoe",
-        "facebook": "https://www.facebook.com/johndoe"
-      },
-      "interests": [
-        "Web Development",
-        "Programming",
-        "Fitness"
-      ]
+  {
+    "id": 1,
+    "personalInfo": {
+      "name": "John Doe",
+      "description": "Full-stack Developer"
     },
-    {
-      "id": 2,
-      "personalInfo": {
-        "name": "Jane Smith",
-        "description": "UX Designer"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/janesmith",
-        "twitter": "https://twitter.com/janesmith",
-        "instagram": "https://www.instagram.com/janesmith",
-        "facebook": "https://www.facebook.com/janesmith"
-      },
-      "interests": [
-        "UX Design",
-        "Graphic Design",
-        "Reading"
-      ]
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "instagram": "https://www.instagram.com/johndoe",
+      "facebook": "https://www.facebook.com/johndoe"
     },
-    {
-      "id": 3,
-      "personalInfo": {
-        "name": "Alex Johnson",
-        "description": "Data Scientist"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/alexjohnson",
-        "twitter": "https://twitter.com/alexjohnson",
-        "instagram": "https://www.instagram.com/alexjohnson",
-        "facebook": "https://www.facebook.com/alexjohnson"
-      },
-      "interests": [
-        "Data Science",
-        "Machine Learning",
-        "Hiking"
-      ]
+    "interests": [
+      "Web Development",
+      "Programming",
+      "Fitness"
+    ]
+  },
+  {
+    "id": 2,
+    "personalInfo": {
+      "name": "Jane Smith",
+      "description": "UX Designer"
     },
-    {
-      "id": 4,
-      "personalInfo": {
-        "name": "Emily Davis",
-        "description": "Digital Marketing Specialist"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/emilydavis",
-        "twitter": "https://twitter.com/emilydavis",
-        "instagram": "https://www.instagram.com/emilydavis",
-        "facebook": "https://www.facebook.com/emilydavis"
-      },
-      "interests": [
-        "Digital Marketing",
-        "Content Creation",
-        "Photography"
-      ]
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/janesmith",
+      "twitter": "https://twitter.com/janesmith",
+      "instagram": "https://www.instagram.com/janesmith",
+      "facebook": "https://www.facebook.com/janesmith"
     },
-    {
-      "id": 5,
-      "personalInfo": {
-        "name": "Chris Miller",
-        "description": "Game Developer"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/chrismiller",
-        "twitter": "https://twitter.com/chrismiller",
-        "instagram": "https://www.instagram.com/chrismiller",
-        "facebook": "https://www.facebook.com/chrismiller"
-      },
-      "interests": [
-        "Game Development",
-        "Virtual Reality",
-        "Gaming"
-      ]
+    "interests": [
+      "UX Design",
+      "Graphic Design",
+      "Reading"
+    ]
+  },
+  {
+    "id": 3,
+    "personalInfo": {
+      "name": "Alex Johnson",
+      "description": "Data Scientist"
     },
-    {
-      "id": 6,
-      "personalInfo": {
-        "name": "Sara White",
-        "description": "Content Creator"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/sarawhite",
-        "twitter": "https://twitter.com/sarawhite",
-        "instagram": "https://www.instagram.com/sarawhite",
-        "facebook": "https://www.facebook.com/sarawhite"
-      },
-      "interests": [
-        "Content Creation",
-        "Travel",
-        "Cooking"
-      ]
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/alexjohnson",
+      "twitter": "https://twitter.com/alexjohnson",
+      "instagram": "https://www.instagram.com/alexjohnson",
+      "facebook": "https://www.facebook.com/alexjohnson"
     },
-    {
-      "id": 7,
-      "personalInfo": {
-        "name": "Mike Turner",
-        "description": "Fitness Trainer"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/miketurner",
-        "twitter": "https://twitter.com/miketurner",
-        "instagram": "https://www.instagram.com/miketurner",
-        "facebook": "https://www.facebook.com/miketurner"
-      },
-      "interests": [
-        "Fitness",
-        "Running",
-        "Healthy Living"
-      ]
+    "interests": [
+      "Data Science",
+      "Machine Learning",
+      "Hiking"
+    ]
+  },
+  {
+    "id": 4,
+    "personalInfo": {
+      "name": "Emily Davis",
+      "description": "Digital Marketing Specialist"
     },
-    {
-      "id": 8,
-      "personalInfo": {
-        "name": "Hannah Brown",
-        "description": "Graphic Designer"
-      },
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/hannahbrown",
-        "twitter": "https://twitter.com/hannahbrown",
-        "instagram": "https://www.instagram.com/hannahbrown",
-        "facebook": "https://www.facebook.com/hannahbrown"
-      },
-      "interests": [
-        "Graphic Design",
-        "Illustration",
-        "Art"
-      ]
-    }
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/emilydavis",
+      "twitter": "https://twitter.com/emilydavis",
+      "instagram": "https://www.instagram.com/emilydavis",
+      "facebook": "https://www.facebook.com/emilydavis"
+    },
+    "interests": [
+      "Digital Marketing",
+      "Content Creation",
+      "Photography"
+    ]
+  },
+  {
+    "id": 5,
+    "personalInfo": {
+      "name": "Chris Miller",
+      "description": "Game Developer"
+    },
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/chrismiller",
+      "twitter": "https://twitter.com/chrismiller",
+      "instagram": "https://www.instagram.com/chrismiller",
+      "facebook": "https://www.facebook.com/chrismiller"
+    },
+    "interests": [
+      "Game Development",
+      "Virtual Reality",
+      "Gaming"
+    ]
+  },
+  {
+    "id": 6,
+    "personalInfo": {
+      "name": "Sara White",
+      "description": "Content Creator"
+    },
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/sarawhite",
+      "twitter": "https://twitter.com/sarawhite",
+      "instagram": "https://www.instagram.com/sarawhite",
+      "facebook": "https://www.facebook.com/sarawhite"
+    },
+    "interests": [
+      "Content Creation",
+      "Travel",
+      "Cooking"
+    ]
+  },
+  {
+    "id": 7,
+    "personalInfo": {
+      "name": "Mike Turner",
+      "description": "Fitness Trainer"
+    },
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/miketurner",
+      "twitter": "https://twitter.com/miketurner",
+      "instagram": "https://www.instagram.com/miketurner",
+      "facebook": "https://www.facebook.com/miketurner"
+    },
+    "interests": [
+      "Fitness",
+      "Running",
+      "Healthy Living"
+    ]
+  },
+  {
+    "id": 8,
+    "personalInfo": {
+      "name": "Hannah Brown",
+      "description": "Graphic Designer"
+    },
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/hannahbrown",
+      "twitter": "https://twitter.com/hannahbrown",
+      "instagram": "https://www.instagram.com/hannahbrown",
+      "facebook": "https://www.facebook.com/hannahbrown"
+    },
+    "interests": [
+      "Graphic Design",
+      "Illustration",
+      "Art"
+    ]
+  }
 ]
