@@ -1,8 +1,6 @@
-# React + Vite
+# this is the basic business-card-gallyery app, which is the solution of week5 assignments !
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### the app seeded with the sample data [sampleData.json](./src/sampleData.json)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Final Result : 
+![image](https://github.com/Sanket00900/100xDevs-Cohort-Assignments/assets/93209316/a7b9dc03-cc7c-49c9-8e67-93793ce8421c)
