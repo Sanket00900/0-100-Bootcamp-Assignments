@@ -7,7 +7,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*"
+  ],
   "rootDir": "src/index.js",
-  "outDir" : "dist/index.js" 
+  "outDir": "dist/index.js"
 }
