@@ -45,7 +45,7 @@ export async function updateTodo(todoId: number) {
  *  id: number
  * }]
  */
-export async function getTodos(userId: number) {    
+export async function getTodos(userId: number) {
     // await client.connect()
     const getTodosQuery = 'SELECT * FROM todos WHERE user_id = $1';
     const res = await client.query(getTodosQuery, [userId])
