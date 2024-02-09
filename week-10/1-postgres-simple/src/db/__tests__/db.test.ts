@@ -7,7 +7,7 @@ beforeAll(async () => {
     await client.connect();
     await dropTables();
     await createTables();
-});
+}, 10000);
 
 afterAll(async () => {
     await client.end();
