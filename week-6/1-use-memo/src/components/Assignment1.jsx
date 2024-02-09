@@ -17,7 +17,7 @@ export function Assignment1() {
       }
       return fact;
     },
-    [input]
+    [input],
   );
   //! solution ends here
   return (
